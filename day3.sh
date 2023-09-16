@@ -1,9 +1,14 @@
 # Task 1: Create a new folder and a new file in your home directory (/home/coder)
-mkdir ~/myfolder
-touch ~/myfolder/myfile.txt
+cd /home/coder
+mkdir newfolder
+touch newfile.txt
+cd/home/coder/project/workspace
+echo "Task completed"
 
 # Task 2: Create a new file and write some text contents into it
-echo "This is some text content." > ~/myfolder/myfile.txt
+touch newfile2.txt
+text = "New file created"
+echo "$text" > newfile2.txt
 
 # Task 3: Create a Folder and a File with specified permissions
 mkdir ~/myfolder/protected_folder
@@ -34,3 +39,4 @@ if [ $total -gt 70 ]; then
 else
     echo "Result: Fail"
 
+fi
